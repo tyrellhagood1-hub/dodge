@@ -6,7 +6,7 @@ import { colors } from "../../constants/colors";
 export default function TabsLayout() {
   return (
     <Tabs
-      initialRouteName="home"
+      initialRouteName="index"
       screenOptions={{
         headerStyle: { backgroundColor: colors.bg },
         headerTintColor: colors.text,
@@ -15,7 +15,7 @@ export default function TabsLayout() {
         tabBarInactiveTintColor: colors.mutedText
       }}
     >
-      <Tabs.Screen name="home" options={{ title: "Home" }} />
+      <Tabs.Screen name="index" options={{ title: "Home" }} />
       <Tabs.Screen name="fitness" options={{ title: "Fitness" }} />
       <Tabs.Screen name="food" options={{ title: "Food" }} />
       <Tabs.Screen name="money" options={{ title: "Money" }} />
