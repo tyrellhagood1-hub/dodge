@@ -7,7 +7,7 @@ export default function HomeScreen() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#0f172a"
+        backgroundColor: "#0f172a",
       }}
     >
       <Text style={{ color: "white", fontSize: 28, fontWeight: "bold" }}>
