@@ -1,7 +1,4 @@
 const { getDefaultConfig } = require("expo/metro-config");
-const { withExpoRouter } = require("expo-router/metro");
-
-const config = getDefaultConfig(__dirname);
-
-module.exports = withExpoRouter(config);
+// Expo Router v4+ no longer requires a custom Metro wrapper.
+module.exports = getDefaultConfig(__dirname);
 
